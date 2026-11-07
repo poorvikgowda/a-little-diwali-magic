@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#fff5a0" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#ff9900" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1c0a35" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="flame" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="25%" stop-color="#ffe600"/>
+      <stop offset="60%" stop-color="#ff6600"/>
+      <stop offset="100%" stop-color="#ff1a00"/>
+    </linearGradient>
+    <linearGradient id="bowl" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd700"/>
+      <stop offset="50%" stop-color="#b45309"/>
+      <stop offset="100%" stop-color="#451a03"/>
+    </linearGradient>
+  </defs>
+  
+  <circle cx="50" cy="50" r="48" fill="#090d2a" stroke="#ffd700" stroke-width="2"/>
+  <circle cx="50" cy="40" r="35" fill="url(#glow)"/>
+  
+  <!-- Diya Flame -->
+  <path d="M50 12 C50 12 36 28 36 42 C36 50 42 56 50 56 C58 56 64 50 64 42 C64 28 50 12 50 12 Z" fill="url(#flame)"/>
+  <path d="M50 24 C50 24 43 32 43 42 C43 47 46 51 50 51 C54 51 57 47 57 42 C57 32 50 24 50 24 Z" fill="#ffffff" opacity="0.9"/>
+  
+  <!-- Diya Base -->
+  <path d="M18 52 C26 78 74 78 82 52 C70 58 30 58 18 52 Z" fill="url(#bowl)" stroke="#ffd700" stroke-width="1.5"/>
+  <ellipse cx="50" cy="52" rx="32" ry="4" fill="#ffd700" opacity="0.7"/>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="skyGlow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#3b1b6a" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#1c0a35" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#050816"/>
+    </radialGradient>
+    <radialGradient id="diyaAura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe600" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#ff7700" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ff0044" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffd700"/>
+      <stop offset="50%" stop-color="#fff4b8"/>
+      <stop offset="100%" stop-color="#ffaa00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#skyGlow)"/>
+
+  <!-- Ornate Border -->
+  <rect x="24" y="24" width="1152" height="582" rx="24" fill="none" stroke="#ffd700" stroke-width="2" opacity="0.6"/>
+  <rect x="36" y="36" width="1128" height="558" rx="16" fill="none" stroke="#ffd700" stroke-width="1" stroke-dasharray="6 8" opacity="0.4"/>
+
+  <!-- Golden Stars & Sparkles -->
+  <circle cx="180" cy="120" r="2.5" fill="#ffd700" opacity="0.9"/>
+  <circle cx="280" cy="200" r="3" fill="#ffffff" opacity="0.8"/>
+  <circle cx="1020" cy="140" r="3" fill="#ffd700" opacity="0.9"/>
+  <circle cx="940" cy="240" r="2" fill="#ffffff" opacity="0.8"/>
+  <circle cx="500" cy="100" r="2" fill="#ffd700" opacity="0.7"/>
+  <circle cx="700" cy="90" r="2.5" fill="#ffffff" opacity="0.8"/>
+
+  <!-- Central Glow -->
+  <circle cx="600" cy="310" r="280" fill="url(#diyaAura)"/>
+
+  <!-- Diya Illustration -->
+  <g transform="translate(600, 230)">
+    <!-- Flame -->
+    <path d="M0 -70 C0 -70 -28 -30 -28 0 C-28 20 -14 36 0 36 C14 36 28 20 28 0 C28 -30 0 -70 0 -70 Z" fill="#ff4500"/>
+    <path d="M0 -50 C0 -50 -18 -20 -18 0 C-18 15 -10 26 0 26 C10 26 18 15 18 0 C18 -20 0 -50 0 -50 Z" fill="#ffd700"/>
+    <path d="M0 -25 C0 -25 -8 -8 -8 0 C-8 8 -4 14 0 14 C4 14 8 8 8 0 C8 -8 0 -25 0 -25 Z" fill="#ffffff"/>
+    
+    <!-- Clay Diya Bowl -->
+    <path d="M-60 30 C-40 70 40 70 60 30 C40 40 -40 40 -60 30 Z" fill="#92400e" stroke="#ffd700" stroke-width="2"/>
+    <ellipse cx="0" cy="30" rx="45" ry="6" fill="#ffd700"/>
+  </g>
+
+  <!-- Heading Text -->
+  <text x="600" y="420" font-family="'Cinzel', 'Playfair Display', serif" font-size="54" font-weight="800" text-anchor="middle" fill="url(#goldText)" letter-spacing="4">
+    A LITTLE DIWALI MAGIC
+  </text>
+  <text x="600" y="480" font-family="'Cinzel', 'Playfair Display', serif" font-size="28" font-weight="600" text-anchor="middle" fill="#fde047" letter-spacing="2">
+    🪔✨
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="530" font-family="'Outfit', sans-serif" font-size="22" font-weight="300" text-anchor="middle" fill="#f3e8ff" opacity="0.9">
+    A special Diwali surprise filled with lights, happiness &amp; beautiful moments
+  </text>
+</svg>
