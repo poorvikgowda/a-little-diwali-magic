@@ -98,3 +98,4 @@ function createPNG(width, height) {
 const buffer = createPNG(1200, 630);
 fs.writeFileSync('public/og-image.png', buffer);
 console.log('og-image.png generated successfully, size:', buffer.length);
+
